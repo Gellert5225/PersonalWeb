@@ -180,9 +180,6 @@ a:focus {
         margin-top: -150px;
         min-height: 650px !important;
     }
-    .service-section h2 {
-/*        padding-top: 100px !important;*/
-    }
 }
 
 @media(max-width:500px) {
@@ -195,9 +192,6 @@ a:focus {
         padding-top: 140px;
         margin-top: -150px;
         padding-bottom: 80px;
-    }
-    .service-section h3 {
-/*        padding-top: 100px;*/
     }
     .contact-section{
         padding-top: 140px;
@@ -356,15 +350,13 @@ p {
 }
 
 .content-section {
+    background-color: #F2F3F5;
 }
 
 #about{
     height: auto;
     padding-top: 80px;
     padding-bottom: 80px;
-}
-
-.about-section {
 }
 
 .about-section h2 {
@@ -507,23 +499,23 @@ input[type=submit] {
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
--webkit-border-radius: 6px;
--moz-border-radius: 6px;
-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 
 .contact {
     width: 100%;
     padding: 50px 0;
     color: #666665;
-    background-color: #F2F3F5;
+    background-color: white;
 }
 
 .contact-section {
     width: 100%;
     padding: 50px 0;
     color: #666665;
-    background-color: #F2F3F5;
+    background-color: white;
 }
 
 .inner-title {
@@ -544,4 +536,14 @@ border-radius: 6px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #4f535f;
+}
+
+.field {
+    border: 1px solid rgb(191, 192, 195); 
+    border-radius: 4px;
+}
+
+#comments {
+    border: 1px solid rgb(191, 192, 195);
+    border-radius: 4px;
 }
