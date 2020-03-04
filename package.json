@@ -14,7 +14,7 @@
     "http2": "^3.3.7",
     "kerberos": "0.0.24",
     "parse": "~1.8.0",
-    "parse-server": "^2.8.2"
+    "parse-server": "^4.1.0"
   },
   "scripts": {
     "start": "node index.js"
